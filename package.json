@@ -24,8 +24,13 @@
     "@pinia/nuxt": "^0.4.11",
     "@vee-validate/nuxt": "^4.11.6",
     "@vueuse/core": "^10.4.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "lite-youtube-embed": "^0.2.0",
-    "pinia": "^2.1.6"
+    "lucide-vue-next": "^0.292.0",
+    "pinia": "^2.1.6",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@iconify/json": "^2.2.96",

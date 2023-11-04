@@ -46,6 +46,10 @@ export default defineNuxtConfig({
     'nuxt-icon',
   ],
 
+  colorMode: {
+    preference: 'light',
+  },
+
   ui: {
     icons: 'all',
     // safelistColors: [
@@ -85,6 +89,22 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+
+  components: {
+    dirs: [
+      {
+        path: '~/components',
+        pathPrefix: false,
+      },
+      {
+        path: '~/components/ui',
+        // this is required else Nuxt will autoImport `.ts` file
+        extensions: ['.vue'],
+        // prefix for your components, eg: UiButton
+        // prefix: 'Ui',
+      },
+    ],
   },
 
   image: {
@@ -265,6 +285,7 @@ export default defineNuxtConfig({
         // restartOnConfigUpdate: true,
         restartOnThemeUpdate: true,
       },
+      componentsPathPrefix: false,
       // plugins: [
       //   {
       //     name: 'My Awesome Lib 3.0',
