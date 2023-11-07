@@ -1,3 +1,18 @@
+# X Clone with Nuxt UI and Shadcn-Vue
+
+This app was live-designed with Vue Designer by following the free YouTube course "**X Clone with Nuxt UI and Shadcn-Vue**", which is part of the "**Learn With Vue Designer**" series. Check it out [here](https://docs.pinegrow.com/docs/vue/tutorials-courses/).
+
+This is a clone of the popular [x.com](https://x.com) social media application (previously twitter.com). In this clone, we focus primarily on replicating the interactive and responsive front-end UI layer without wiring with a backend. For a full clone with custom auth implementation, refer to this youtube video by `insidewebdev` - https://www.youtube.com/watch?v=_cM4j9_LfQk.
+
+This is a sample project created using:
+
+- 👇 Starter Template - [NuCommerce Store - Fullstack app with beautiful, accessible components from Nuxt UI library](https://github.com/pinegrow/pg-nuxtui) (see below section for the original Readme)
+
+Final Output Demo - https://pg-nuxtui-shadcn-vue-x-clone.netlify.app/
+
+<br>
+<br>
+
 # NuCommerce Store - Fullstack app with beautiful, accessible components from Nuxt UI library
 
 Nuxt 3 Full stack (SPA-SSR) quick start template that pre-includes the [Pinegrow Nuxt Module](https://www.npmjs.com/package/@pinegrow/nuxt-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin), [Nuxt UI](https://ui.nuxt.com/getting-started) and other goodies for Vue Designer. This template uses the tailwind-based Nuxt UI component library and features an eCommerce store, where data is fetched via APIs server by server routes (Nitro-powered).
